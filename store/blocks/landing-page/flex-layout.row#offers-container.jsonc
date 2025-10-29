@@ -1,0 +1,97 @@
+{
+    "flex-layout.row#offers-container": {
+        "children": [
+            "flex-layout.col#offer1",
+            "flex-layout.col#offer2",
+            "flex-layout.col#offer3",
+            "flex-layout.col#offer4"
+        ],
+        "props": {
+            "blockClass": "offers-container",
+            "colJustify": "around"
+        }
+    },
+    "flex-layout.col#offer1": {
+        "children": [
+            "image#offer1"
+            // "rich-text#offer1"
+        ],
+        "props": {
+            "blockClass": "offer"
+        }
+    },
+    "image#offer1": {
+        "props": {
+            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "blockClass": "image-offer"
+        }
+    },
+    // "rich-text#offer1": {
+    //     "props": {
+    //         "text": "Teste"
+    //     }
+    // },
+    "flex-layout.col#offer2": {
+        "children": [
+            "image#offer2"
+            // "rich-text#offer2"
+        ],
+        "props": {
+            "blockClass": "offer"
+        }
+    },
+    "image#offer2": {
+        "props": {
+            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "blockClass": "image-offer"
+        }
+    },
+    // "rich-text#offer2": {
+    //     "props": {
+    //         "text": "Teste"
+    //     }
+    // },
+
+    "flex-layout.col#offer3": {
+        "children": [
+            "image#offer3"
+            // "rich-text#offer3"
+        ],
+        "props": {
+            "blockClass": "offer"
+        }
+    },
+    "image#offer3": {
+        "props": {
+            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "blockClass": "image-offer"
+        }
+    },
+    // "rich-text#offer3": {
+    //     "props": {
+    //         "text": "Teste"
+    //     }
+    // },
+
+    "flex-layout.col#offer4": {
+        "children": [
+            "image#offer4"
+            // "rich-text#offer4"
+        ],
+        "props": {
+            "blockClass": "offer"
+        }
+    },
+    "image#offer4": {
+        "props": {
+            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "blockClass": "image-offer"
+        }
+    }
+    // "rich-text#offer4": {
+    //     "props": {
+    //         "text": "Teste"
+    //     }
+    // }
+
+}

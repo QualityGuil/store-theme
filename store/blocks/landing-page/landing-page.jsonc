@@ -1,0 +1,11 @@
+{
+  "store.custom#landing-page": {
+    "blocks": [
+      "slider-layout#landing-page",
+      "flex-layout.row#deals",
+      "flex-layout.row#SEO",
+      "info-card#landing-page", // Ok
+      "flex-layout.row#offers-container"
+    ]
+  }
+}

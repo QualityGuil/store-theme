@@ -1,0 +1,15 @@
+{
+  "info-card#landing-page": {
+    "props": {
+      "id": "landing-page",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/773323/1607599537_banner_pedagogicos.png",
+      "headline": "Descubra nossa variedade de brinquedos",
+      "callToActionText": "APROVEITE",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  }
+}
