@@ -6,12 +6,12 @@
   text-decoration: underline;
 }
 
-.infoCardContainer--info-card-home {
+/* .infoCardContainer--info-card-landing-page {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: red;
   padding: 0px;
-}
+} */
 
 .newsletter {
   background-color: #03054e;
@@ -69,15 +69,19 @@
   .newsletter .container {
     padding: 140px;
   }
+
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
+
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
   }
+
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
@@ -110,4 +114,103 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.infoCardContainer--info-card-btn-right {
+  height: 500px;
+}
+
+.infoCardContainer--info-card-slider {
+  width: 100%;
+  /* height: 350px; */
+}
+
+.imageElement--home-slider-image {
+  height: 450px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .imageElement--home-slider-image {
+  height: auto;
+  width: 100%;
+}
+}
+
+.container {
+  margin: 15px 0;
+}
+
+.infoCardContainer--info-card-home {
+  /* max-height: 715px; */
+  /* height: 400px; */
+  /* margin: 0 auto; */
+  background-color: #E76F51;
+  padding: 0px;
+  width: 100%;
+}
+
+.infoCardHeadline--info-card-home {
+  color: white;
+}
+
+/* .infoCardCallActionContainer--info-card-home {
+    background-color: ;
+} */
+
+.imageElement--image-offer {
+  /* width: 250px; */
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* @media screen and (max-width: 767px) {
+  .imageElement--image-offer {
+    width: 100px;
+  }
+} */
+
+.logoImage {
+  width: 150px;
+  /* padding: 10px; */
+}
+
+.imageElement--image-deal {
+  max-height: 30px;
+}
+
+.infoCardHeadline--info-card-landing-page {
+  color: white;
+}
+
+.infoCardContainer--info-card-landing-page {
+  /* max-width: 1520px; */
+  margin: 0 auto;
+  background-color: #E76F51;
+  padding: 0;
+  /* padding-bottom: -10px; */
+  width: 70%;
+  border-radius: 0 0 15px 0;
+  /* margin: auto 15px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.infoCardImage--info-card-landing-page {
+  height: 255px;
+  width: 100%;
+}
+
+.logoLink {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.imageElement--image-landing-page-deal {
+  text-align: center;
+  height: 30px;
 }

@@ -1,10 +1,14 @@
 {
   "store.custom#landing-page": {
+    "parent": {
+      "header": "header#landing-page"
+    },
     "blocks": [
+      // "header#landing-page",
       "slider-layout#landing-page",
-      "flex-layout.row#deals",
+      "flex-layout.row#landing-page-deals",
       "flex-layout.row#SEO",
-      "info-card#landing-page", // Ok
+      "info-card#landing-page",
       "flex-layout.row#offers-container"
     ]
   }

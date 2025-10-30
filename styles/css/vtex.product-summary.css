@@ -40,3 +40,41 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.buyButton :global(.vtex-button__label) {
+    content: "Comprar";
+    background-color: #6db8b6;
+    border: none;
+}
+
+.buyButton {
+    /* background-color: #6db8b6; */
+    background-color: #6db8b6;
+    border: none;
+    /* padding: 50px; */
+    border-radius: 5px;
+}
+
+.buyButtonContainer {
+    border: none;
+}
+
+.element :global(.vtex-button) {
+    background-color: #6db8b6;
+    /* border: 5px solid #6db8b6; */
+    border-color: #6db8b6;
+    width: 100%;
+}
+
+.element {
+    text-align: center;
+}
+
+.element :global(.vtex-button__label) {
+    background-color: #6db8b6;
+}
+
+.productBrand {
+    font-weight: 400;
+    font-size: 16px;
+}

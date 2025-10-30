@@ -22,7 +22,7 @@
     },
     "image#offer1": {
         "props": {
-            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "src": "assets/1.png",
             "blockClass": "image-offer"
         }
     },
@@ -42,7 +42,7 @@
     },
     "image#offer2": {
         "props": {
-            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "src": "assets/2.png",
             "blockClass": "image-offer"
         }
     },
@@ -63,7 +63,7 @@
     },
     "image#offer3": {
         "props": {
-            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "src": "assets/3.png",
             "blockClass": "image-offer"
         }
     },
@@ -84,7 +84,7 @@
     },
     "image#offer4": {
         "props": {
-            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "src": "assets/4.png",
             "blockClass": "image-offer"
         }
     }

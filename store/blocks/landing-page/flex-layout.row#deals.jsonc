@@ -1,85 +1,100 @@
 {
-    "flex-layout.row#deals": {
+    "flex-layout.row#landing-page-deals": {
         "children": [
-            "flex-layout.col#deal1",
-            "flex-layout.col#deal2",
-            "flex-layout.col#deal3",
-            "flex-layout.col#deal4"
+            "flex-layout.col#landing-page-deal1",
+            "flex-layout.col#landing-page-deal2",
+            "flex-layout.col#landing-page-deal3",
+            "flex-layout.col#landing-page-deal4"
         ],
         "props": {
-            "blockClass": "deals"
+            "blockClass": "landing-page-deals",
+            "preventHorizontalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": false
         }
     },
-    "flex-layout.col#deal1": {
+    "flex-layout.col#landing-page-deal1": {
         "children": [
-            "image#deal1",
-            "rich-text#deal1"
-        ]
+            "image#landing-page-deal1",
+            "rich-text#landing-page-deal1"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
     },
-    "image#deal1": {
+    "image#landing-page-deal1": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "blockClass": "image-deal"
+            "blockClass": "image-landing-page-deal"
         }
     },
-    "rich-text#deal1": {
+    "rich-text#landing-page-deal1": {
         "props": {
             "text": "Entrega grátis",
-            "blockClass": "deals"
+            "blockClass": "landing-page-deal"
         }
     },
-    "flex-layout.col#deal2": {
+    "flex-layout.col#landing-page-deal2": {
         "children": [
-            "image#deal2",
-            "rich-text#deal2"
-        ]
+            "image#landing-page-deal2",
+            "rich-text#landing-page-deal2"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
     },
-    "image#deal2": {
+    "image#landing-page-deal2": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-            "blockClass": "image-deal"
+            "blockClass": "image-landing-page-deal"
         }
     },
-    "rich-text#deal2": {
+    "rich-text#landing-page-deal2": {
         "props": {
             "text": "Entregas em até um dia",
-            "blockClass": "deals"
+            "blockClass": "landing-page-deal"
         }
     },
-    "flex-layout.col#deal3": {
+    "flex-layout.col#landing-page-deal3": {
         "children": [
-            "image#deal3",
-            "rich-text#deal3"
-        ]
+            "image#landing-page-deal3",
+            "rich-text#landing-page-deal3"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
     },
-    "image#deal3": {
+    "image#landing-page-deal3": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-            "blockClass": "image-deal"
+            "blockClass": "image-landing-page-deal"
         }
     },
-    "rich-text#deal3": {
+    "rich-text#landing-page-deal3": {
         "props": {
             "text": "Retirada na loja",
-            "blockClass": "deals"
+            "blockClass": "landing-page-deal"
         }
     },
-    "flex-layout.col#deal4": {
+    "flex-layout.col#landing-page-deal4": {
         "children": [
-            "image#deal4",
-            "rich-text#deal4"
-        ]
+            "image#landing-page-deal4",
+            "rich-text#landing-page-deal4"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
     },
-    "image#deal4": {
+    "image#landing-page-deal4": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-            "blockClass": "image-deal"
+            "blockClass": "image-landing-page-deal"
         }
     },
-    "rich-text#deal4": {
+    "rich-text#landing-page-deal4": {
         "props": {
             "text": "Ofertas exclusivas",
-            "blockClass": "deals"
+            "blockClass": "landing-page-deal"
         }
     }
 }

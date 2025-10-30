@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,6 +12,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -29,7 +31,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: red;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -44,7 +46,7 @@
 
 .flexRow--deals {
   background-color: #0F3E99;
-  padding: 14px 0px;
+  /* padding: 14px 0px; */
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -95,4 +97,79 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--flex-row-SEO {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--offers-container {
+  width: 72%;
+  margin: 0 auto;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  /* flex-wrap: wrap; */
+}
+
+/* @media screen and (max-width: 767px) {
+  .flexRow--offers-container :global(.vtex-store-components-3-x-container) {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+  .flexColChild--offer {
+    width: 50px;
+  }
+} */
+
+.flexColChild--offer {
+  /* background-color: blue; */
+  /* width: 150px; */
+  width: 100px;
+  /* height: 250px; */
+  padding: 0;
+  margin: 5px 0 5px 0;
+}
+
+.flexRow--landing-page-deals {
+  background-color: red;
+  /* height: 50px; */
+  padding: 1px;
+  /* width: 70%; */
+}
+
+.flexCol--landing-page-deal {
+  /* background-color: gray; */
+  text-align: center;
+}
+
+.flexRow--sticky-header-desktop {
+  /* height: 50px; */
+  /* background-color: #E76F51; */
+  background-color: yellow;
+}
+
+.flexRowContent--header-main {
+  /* background-color: #E76F51; */
+  background-color: yellow;
+}
+
+.flexRow--row-footer {
+  background-color: #E76F51;
+}
+
+:global(.vtex-store-footer-2-x-footer-container) {
+  background-color: #E76F51;
+}
+
+.flexRow--header-navegation {
+  display: flex;
+  width: auto;
+  align-items: center;
+  /* gap: 250px; */
 }

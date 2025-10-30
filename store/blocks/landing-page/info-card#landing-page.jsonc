@@ -1,14 +1,15 @@
 {
   "info-card#landing-page": {
     "props": {
-      "id": "landing-page",
+      "id": "info-card-landing-page",
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://images.tcdn.com.br/img/img_prod/773323/1607599537_banner_pedagogicos.png",
+      "imageUrl": "https://www.sbp.com.br/fileadmin/_processed_/0/b/csm_brinquedos_cd0f4dbd74.jpg",
+      // "src":"assets/infocard-image.png",
       "headline": "Descubra nossa variedade de brinquedos",
       "callToActionText": "APROVEITE",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "blockClass": "info-card-landing-page",
       "textAlignment": "center"
     }
   }

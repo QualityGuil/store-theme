@@ -1,0 +1,123 @@
+{
+  "header#landing-page": {
+    "blocks": ["header-layout.desktop#landing-page", "header-layout.mobile#landing-page"]
+  },
+  "header.full#landing-page": {
+    "blocks": ["header-layout.desktop#landing-page", "header-layout.mobile#landing-page"]
+  },
+  "header-layout.desktop#landing-page": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header-main"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.row#navegation"
+    ]
+  },
+
+  "flex-layout.row#navegation": {
+    "children": [
+      "link#produtos",
+      "link#ofertas",
+      "link#sobrenos"
+    ],
+    "props": {
+      "blockClass": "header-navegation",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false
+    }
+  },
+
+  "link#produtos": {
+    "props": {
+      "label": "Produtos",
+      "blockClass": "text-navegation",
+      // "scrollTo": "#info-card-landing-page"
+      "href": "/produtos"
+    }
+  },
+  "link#ofertas": {
+    "props": {
+      "label": "Ofertas",
+      "blockClass": "text-navegation",
+      "href": "/ofertas"
+    }
+  },
+  "link#sobrenos": {
+    "props": {
+      "label": "Sobre nós",
+      "blockClass": "text-navegation",
+      "href": "/about-us"
+    }
+  },
+
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-rihappy.svg",
+      "width": "80"
+    }
+  },
+  "header-layout.mobile#landing-page": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#header-landing-page"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#header-landing-page": {
+    "children": [
+      "flex-layout.row#logo-desktop",
+      "flex-layout.row#navegation"
+    ]
+  },
+  "flex-layout.row#logo-desktop": {
+    "children": [
+      "logo"
+    ]
+  }
+}

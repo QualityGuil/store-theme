@@ -9,3 +9,10 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.footerLayout {
+    display: flex;
+    background-color: #E76F51;
+    flex-direction: column;
+    /* position: relative; */
+}

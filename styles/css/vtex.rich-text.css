@@ -88,3 +88,97 @@
     line-height: 1.3em;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.paragraph--rich-text-teste {
+  text-align: center;
+  color: blue;
+}
+
+.container--text-SEO {
+  width: 100%;
+}
+
+.paragraph--text-navegation {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.strong--text-SEO {
+  font-family: "Love Ya Like A Sister", cursive;
+  /* font-size: 25px; */
+  font-weight: 400;
+  font-style: normal;
+  /* 1. Define o gradiente de fundo */
+  background: linear-gradient(to right, #ff6a00, #ee0979, #9198e5);
+  /* Você pode usar quantos códigos de cores quiser: #RRGGBB */
+
+  /* 2. Recorta o fundo (gradiente) para que ele preencha apenas as letras */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Torna a cor do texto transparente para que o fundo apareça */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  /* fallback para navegadores que não suportam a propriedade -webkit */
+
+  /* Propriedades extras para melhor visualização, ajuste conforme necessário */
+  font-size: 35px;
+  font-weight: bold;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.paragraph--SEO-body {
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  font-family: "Peralta", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paragraph--deals {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.paragraph--landing-page-deal {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph--landing-page-deal {
+    text-align: center;
+    color: white;
+    font-size: 11px;
+  }
+}
+
+.container--landing-page-deal {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  /* height: 25px; */
+  height: 35px;
+  /* text-align: center;
+  margin: 0 auto; */
+}
+
+.wrapper--landing-page-deal {
+  padding: 0;
+}
