@@ -16,3 +16,34 @@
     flex-direction: column;
     /* position: relative; */
 }
+
+.socialNetworkWrapper--redes-sociais-landing-page {
+  /* align-items: flex-end;
+  align-content: end; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socialNetworkImage--redes-sociais-landing-page {
+  color: white;
+}
+
+.socialNetworkWrapper--redes-sociais-landing-page {
+  color: white;
+}
+
+.socialNetworksContainer--redes-sociais-landing-page {
+  color: white;
+}
+
+.vtex-store-footer-2-x-socialNetworkLink--redes-sociais-landing-page :global(.vtex-store-footer-2-x-socialNetworkImage) {
+  color: white;
+}
+
+.paymentMethodIconImage {
+  color: white;
+}
+
+.socialNetworksContainer :global(.vtex-store-footer-2-x-socialNetworksLink) {
+  color: white; /* Cor vermelha para os ícones */
+}

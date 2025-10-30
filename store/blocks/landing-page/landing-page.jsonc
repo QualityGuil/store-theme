@@ -1,7 +1,8 @@
 {
   "store.custom#landing-page": {
     "parent": {
-      "header": "header#landing-page"
+      "header": "header#landing-page",
+      "footer": "footer#landing-page"
     },
     "blocks": [
       // "header#landing-page",

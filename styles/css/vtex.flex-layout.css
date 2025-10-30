@@ -173,3 +173,16 @@
   align-items: center;
   /* gap: 250px; */
 }
+
+.flexRow--menu-row-landing-page {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.flexRowContent--menu-row-landing-page {
+  color: white;
+}
+
+.flexRow--payment-methods-landing-page {
+  margin: 0 auto;
+}
