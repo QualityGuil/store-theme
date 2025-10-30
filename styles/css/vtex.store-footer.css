@@ -47,3 +47,10 @@
 .socialNetworksContainer :global(.vtex-store-footer-2-x-socialNetworksLink) {
   color: white; /* Cor vermelha para os ícones */
 }
+
+@media screen and (max-width: 767px) {
+  .socialNetworkWrapper--redes-sociais-landing-page{
+    display: flex;
+    justify-content: center;
+  }
+}

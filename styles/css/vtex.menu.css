@@ -6,3 +6,17 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .styledLinkContent--menu-item-landing-page {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .menuItem--menu-item-landing-page {
+        text-align: center;
+        margin: auto;
+    }
+    .menuContainer {
+        margin-bottom: 15px;
+    }
+}

@@ -1,14 +1,21 @@
 {
     "footer#landing-page": {
         "blocks": [
-            "footer-layout.desktop#landing-page"
-            // "footer-layout.mobile#landing-page"
+            "footer-layout.desktop#landing-page",
+            "footer-layout.mobile#landing-page"
         ],
         "props": {
             "blockClass": "footer-landing-page"
         }
     },
     "footer-layout.desktop#landing-page": {
+        "children": [
+            "flex-layout.row#footer-landing-page-1-descktop",
+            "logo",
+            "flex-layout.row#footer-landing-page-2-descktop"
+        ]
+    },
+    "footer-layout.mobile#landing-page": {
         "children": [
             "flex-layout.row#footer-landing-page-1-descktop",
             "logo",
@@ -51,69 +58,69 @@
         }
     },
     "vtex.menu@2.x:menu#navegation-landing-page": {
-            "props": {
-                "orientation": "vertical"
-            },
-            "children": [
-                "menu-item#produtos-landing-page",
-                "menu-item#ofertas-landing-page",
-                "menu-item#sobrenos-landing-page"
-            ]
+        "props": {
+            "orientation": "vertical"
         },
-        "menu-item#produtos-landing-page": {
-            "props": {
-                "blockClass": "menu-item-landing-page",
-                "id": "menu-item-produtos",
-                "type": "custom",
-                "iconId": null,
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "href": "/produtos",
-                    "noFollow": false,
-                    "tagTitle": "Produtos",
-                    "text": "Produtos"
-                }
-            }
-        },
-        "menu-item#ofertas-landing-page": {
-            "props": {
-                "blockClass": "menu-item-landing-page",
-                "id": "menu-item-ofertas",
-                "type": "custom",
-                "iconId": null,
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "href": "/ofertas",
-                    "noFollow": false,
-                    "tagTitle": "Ofertas",
-                    "text": "Ofertas"
-                }
-            }
-        },
-        "menu-item#sobrenos-landing-page": {
-            "props": {
-                "blockClass": "menu-item-landing-page",
-                "id": "menu-item-sobrenos",
-                "type": "custom",
-                "iconId": null,
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "href": "/about-us",
-                    "noFollow": false,
-                    "tagTitle": "Sobre nós",
-                    "text": "Sobre nós"
-                }
-            }
-        },
-        "flex-layout.row#footer-landing-page-2-descktop": {
-            "children": [
-                "accepted-payment-methods"
-            ],
-            "props": {
-                "blockClass": "payment-methods-landing-page"
+        "children": [
+            "menu-item#produtos-landing-page",
+            "menu-item#ofertas-landing-page",
+            "menu-item#sobrenos-landing-page"
+        ]
+    },
+    "menu-item#produtos-landing-page": {
+        "props": {
+            "blockClass": "menu-item-landing-page",
+            "id": "menu-item-produtos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/produtos",
+                "noFollow": false,
+                "tagTitle": "Produtos",
+                "text": "Produtos"
             }
         }
+    },
+    "menu-item#ofertas-landing-page": {
+        "props": {
+            "blockClass": "menu-item-landing-page",
+            "id": "menu-item-ofertas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ofertas",
+                "noFollow": false,
+                "tagTitle": "Ofertas",
+                "text": "Ofertas"
+            }
+        }
+    },
+    "menu-item#sobrenos-landing-page": {
+        "props": {
+            "blockClass": "menu-item-landing-page",
+            "id": "menu-item-sobrenos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/about-us",
+                "noFollow": false,
+                "tagTitle": "Sobre nós",
+                "text": "Sobre nós"
+            }
+        }
+    },
+    "flex-layout.row#footer-landing-page-2-descktop": {
+        "children": [
+            "accepted-payment-methods"
+        ],
+        "props": {
+            "blockClass": "payment-methods-landing-page"
+        }
     }
+}
