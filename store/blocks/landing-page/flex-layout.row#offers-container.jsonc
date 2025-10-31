@@ -8,7 +8,7 @@
         ],
         "props": {
             "blockClass": "offers-container",
-            "colJustify": "around"
+            "colJustify": "between"
         }
     },
     "image#offer1": {

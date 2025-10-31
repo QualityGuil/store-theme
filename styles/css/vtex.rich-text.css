@@ -139,7 +139,7 @@
 }
 
 .paragraph--SEO-body {
-  width: 50%;
+  width: 70%;
   font-size: 20px;
   text-align: center;
   margin: auto;
@@ -147,6 +147,12 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* @media screen and (max-width: 767px) {
+  .paragraph--SEO-body {
+    width: 100%;
+  }
+} */
 
 .paragraph--deals {
   font-family: "Poppins", sans-serif;
