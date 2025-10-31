@@ -10,11 +10,10 @@
   padding-top: 16px;
 }
 
-.footerLayout {
-    display: flex;
-    background-color: #E76F51;
-    flex-direction: column;
-    /* position: relative; */
+.footerLayout--footer-landing-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7473C;
 }
 
 .socialNetworkWrapper--redes-sociais-landing-page {
@@ -26,6 +25,9 @@
 
 .socialNetworkImage--redes-sociais-landing-page {
   color: white;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .socialNetworkWrapper--redes-sociais-landing-page {
@@ -42,6 +44,9 @@
 
 .paymentMethodIconImage {
   color: white;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .socialNetworksContainer :global(.vtex-store-footer-2-x-socialNetworksLink) {

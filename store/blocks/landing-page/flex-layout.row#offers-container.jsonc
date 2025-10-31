@@ -1,23 +1,14 @@
 {
     "flex-layout.row#offers-container": {
         "children": [
-            "flex-layout.col#offer1",
-            "flex-layout.col#offer2",
-            "flex-layout.col#offer3",
-            "flex-layout.col#offer4"
+            "image#offer1",
+            "image#offer2",
+            "image#offer3",
+            "image#offer4"
         ],
         "props": {
             "blockClass": "offers-container",
             "colJustify": "around"
-        }
-    },
-    "flex-layout.col#offer1": {
-        "children": [
-            "image#offer1"
-            // "rich-text#offer1"
-        ],
-        "props": {
-            "blockClass": "offer"
         }
     },
     "image#offer1": {
@@ -26,39 +17,10 @@
             "blockClass": "image-offer"
         }
     },
-    // "rich-text#offer1": {
-    //     "props": {
-    //         "text": "Teste"
-    //     }
-    // },
-    "flex-layout.col#offer2": {
-        "children": [
-            "image#offer2"
-            // "rich-text#offer2"
-        ],
-        "props": {
-            "blockClass": "offer"
-        }
-    },
     "image#offer2": {
         "props": {
             "src": "assets/2.png",
             "blockClass": "image-offer"
-        }
-    },
-    // "rich-text#offer2": {
-    //     "props": {
-    //         "text": "Teste"
-    //     }
-    // },
-
-    "flex-layout.col#offer3": {
-        "children": [
-            "image#offer3"
-            // "rich-text#offer3"
-        ],
-        "props": {
-            "blockClass": "offer"
         }
     },
     "image#offer3": {
@@ -67,31 +29,10 @@
             "blockClass": "image-offer"
         }
     },
-    // "rich-text#offer3": {
-    //     "props": {
-    //         "text": "Teste"
-    //     }
-    // },
-
-    "flex-layout.col#offer4": {
-        "children": [
-            "image#offer4"
-            // "rich-text#offer4"
-        ],
-        "props": {
-            "blockClass": "offer"
-        }
-    },
     "image#offer4": {
         "props": {
             "src": "assets/4.png",
             "blockClass": "image-offer"
         }
     }
-    // "rich-text#offer4": {
-    //     "props": {
-    //         "text": "Teste"
-    //     }
-    // }
-
 }

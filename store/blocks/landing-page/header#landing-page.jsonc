@@ -8,7 +8,10 @@
   "header-layout.desktop#landing-page": {
     "children": [
       "sticky-layout#desktop"
-    ]
+    ],
+    "props": {
+      "blockClass": "header-layout-descktop-landing-page"
+    }
   },
   "sticky-layout#desktop": {
     "props": {
@@ -23,7 +26,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "header-main"
+      "blockClass": "header-main-landing-page"
     },
     "children": [
       "flex-layout.col#logo-desktop",

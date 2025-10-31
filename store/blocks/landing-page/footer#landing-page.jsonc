@@ -3,17 +3,17 @@
         "blocks": [
             "footer-layout.desktop#landing-page",
             "footer-layout.mobile#landing-page"
-        ],
-        "props": {
-            "blockClass": "footer-landing-page"
-        }
+        ]
     },
     "footer-layout.desktop#landing-page": {
         "children": [
             "flex-layout.row#footer-landing-page-1-descktop",
             "logo",
             "flex-layout.row#footer-landing-page-2-descktop"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer-landing-page"
+        }
     },
     "footer-layout.mobile#landing-page": {
         "children": [

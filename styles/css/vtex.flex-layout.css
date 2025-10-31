@@ -31,7 +31,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: red;
+  background-color: #E7473C;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -116,6 +116,10 @@
   /* flex-wrap: wrap; */
 }
 
+/* .flexRow--offers-container .container .stretchChildrenWidth {
+  width: 250px;
+} */
+
 /* @media screen and (max-width: 767px) {
   .flexRow--offers-container :global(.vtex-store-components-3-x-container) {
     display: flex;
@@ -137,7 +141,7 @@
 }
 
 .flexRow--landing-page-deals {
-  background-color: red;
+  background-color: #E7473C;
   /* height: 50px; */
   padding: 1px;
   /* width: 70%; */
@@ -154,9 +158,9 @@
   background-color: yellow;
 }
 
-.flexRowContent--header-main {
+.flexRowContent--header-main-landing-page {
   /* background-color: #E76F51; */
-  background-color: yellow;
+  background-color: #E7473C;
 }
 
 .flexRow--row-footer {
