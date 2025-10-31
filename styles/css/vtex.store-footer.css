@@ -57,5 +57,10 @@
   .socialNetworkWrapper--redes-sociais-landing-page{
     display: flex;
     justify-content: center;
+    /* margin-right: 5px; */
   }
+}
+
+.socialNetworksContainer--redes-sociais-landing-page {
+  margin-right: 5px;
 }

@@ -1,10 +1,17 @@
 .styledLinkContent--menu-item-landing-page {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menuItem--menu-item-landing-page {
+    display: flex;
+    align-items: flex-start;
+    /* text-align: start; */
+    /* margin: auto; */
 }
 
 @media screen and (max-width: 767px) {
@@ -12,10 +19,12 @@
         font-size: 18px;
         padding: 5px;
     }
+
     .menuItem--menu-item-landing-page {
         text-align: center;
         margin: auto;
     }
+
     .menuContainer {
         margin-bottom: 15px;
     }

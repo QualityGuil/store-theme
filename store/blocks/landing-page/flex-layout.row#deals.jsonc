@@ -1,4 +1,12 @@
 {
+    "flex-layout.row#landing-page-deals-container": {
+        "children": [
+            "flex-layout.row#landing-page-deals"        
+        ],
+        "props": {
+            "blockClass": "landing-page-deals-container"
+        }
+    },
     "flex-layout.row#landing-page-deals": {
         "children": [
             "flex-layout.col#landing-page-deal1",
@@ -7,10 +15,11 @@
             "flex-layout.col#landing-page-deal4"
         ],
         "props": {
-            "blockClass": "landing-page-deals",
-            "preventHorizontalStretch": false,
-            "preserveLayoutOnMobile": true,
-            "fullWidth": false
+            "blockClass": "landing-page-deals"
+            // ,
+            // "preventHorizontalStretch": false,
+            // "preserveLayoutOnMobile": true,
+            // "fullWidth": false
         }
     },
     "flex-layout.col#landing-page-deal1": {

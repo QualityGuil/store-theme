@@ -5,9 +5,9 @@
       "footer": "footer#landing-page"
     },
     "blocks": [
-      // "header#landing-page",
       "slider-layout#landing-page",
-      "flex-layout.row#landing-page-deals",
+      // "flex-layout.row#landing-page-deals",
+      "flex-layout.row#landing-page-deals-container",
       "flex-layout.row#SEO",
       "info-card#landing-page",
       "flex-layout.row#offers-container"
